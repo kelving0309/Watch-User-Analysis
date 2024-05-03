@@ -107,7 +107,7 @@ fig1.update_layout(
     title='Number of Users and which Upgraded from Previous Model',
     xaxis_title='Device',
     yaxis_title='Number of Users',
-    legend=dict(x=0.7, y=1.0,  # Set the x and y position of the legend box
+    legend=dict(x=1, y=1.0,  # Set the x and y position of the legend box
                 bgcolor='rgba(255, 255, 255, 0)',  # Set the background color of the legend box to transparent
                 bordercolor='rgba(255, 255, 255, 0)'  # Set the border color of the legend box to transparent
                ),
@@ -161,7 +161,7 @@ fig2.update_layout(
     title='Number of Users and Users who Uploaded a Round',
     xaxis_title='Device',
     yaxis_title='Number of Users',
-    legend=dict(x=0.7, y=1.0,  # Set the x and y position of the legend box
+    legend=dict(x=1, y=1.0,  # Set the x and y position of the legend box
                 bgcolor='rgba(255, 255, 255, 0)',  # Set the background color of the legend box to transparent
                 bordercolor='rgba(255, 255, 255, 0)'  # Set the border color of the legend box to transparent
                ),
