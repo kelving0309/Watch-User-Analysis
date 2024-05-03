@@ -47,7 +47,7 @@ fig = px.line(filtered_device_count, x=filtered_device_count.index, y=columns_to
 fig.update_layout(
     xaxis_tickangle=-45,  # Rotate x-axis labels for better readability
     legend_title='Device Type',  # Set legend title
-    legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01),  # Adjust legend position
+    legend=dict(yanchor="top", y=0.99, xanchor="left", x=1),  # Adjust legend position
     xaxis=dict(title='Month', showgrid=False),  # Hide gridlines on x-axis
     yaxis=dict(title='No. of Devices Registered', showgrid=False),  # Show gridlines on y-axis
     plot_bgcolor='white',  # Set plot background color
