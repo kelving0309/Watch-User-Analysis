@@ -232,8 +232,7 @@ users_count_per_device['ProductType'] = users_count_per_device['ProductType'].re
 # Line plot
 fig = px.line(users_count_per_device, x='number_of_rounds', y='number_of_users', color='ProductType', 
               labels={'number_of_rounds': 'Number of Rounds Uploaded', 'number_of_users': 'Number of Users'},
-              title='Number of Users vs Number of Rounds Uploaded',
-              line_shape='spline')
+              title='Number of Users vs Number of Rounds Uploaded')
 
 fig.update_xaxes(range=[0, 200])
 
